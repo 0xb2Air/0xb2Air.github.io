@@ -456,5 +456,11 @@ body {
 }
 
 .symbol img {
-  height: 80px;
+  height: 70px;
+}
+
+@media only screen and (max-width: 767px) {
+  .symbol img {
+    height: 55px;
+  }
 }
